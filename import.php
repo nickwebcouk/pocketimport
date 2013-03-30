@@ -8,7 +8,7 @@
 <h1>Unread</h1>
 <ol>
 <?php
-    $file_handle = fopen("new.txt", "r");
+    $file_handle = fopen("url.txt", "r");
     while (!feof($file_handle)) {
         $galbool = FALSE;
         $line = fgets($file_handle);
